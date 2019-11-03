@@ -1,0 +1,17 @@
+<div class="container m-4">
+  <ul class="nav nav-tabs">
+    <li class="nav-item">
+      <a class="nav-link"[routerLink]="['home']" routerLinkActive="active" >Home</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link"[routerLink]="['admin']" routerLinkActive="active" >Admin</a>
+    </li>
+  </ul>
+  
+  <div>
+    <h3>
+      <router-outlet></router-outlet>
+    </h3>
+  </div>
+  
+</div>
